@@ -11,3 +11,13 @@ sudo apt install git;
 sudo apt install neovim;
 git clone git@github.com:kaiyikang/setup-linux.git;
 ```
+
+
+# Close Wlan
+
+```bash
+sudo apt install net-tools;
+man ip;
+ip addr;
+sudo ip link set wlan0 down;
+```

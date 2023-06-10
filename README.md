@@ -2,7 +2,7 @@
 
 This is a Repo to record how to introduce the setup process of Linux.
 
-# Usage
+## Usage
 
 ```bash
 sudo apt update;
@@ -13,7 +13,7 @@ git clone git@github.com:kaiyikang/setup-linux.git;
 ```
 
 
-# Close Wlan
+## Close Wlan
 
 ```bash
 sudo apt install net-tools;
@@ -21,3 +21,6 @@ man ip;
 ip addr;
 sudo ip link set wlan0 down;
 ```
+
+
+## 如何安装
